@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Playwrite+HU:wght@100..400&family=Sarina&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+HU:wght@100..400&family=Sarina&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Playfair Display', serif;
+    --font2: 'Fleur de Leah', cursive;
+    --font3: 'Condiment', cursive;
+    --cor1: #da9239;
+    --cor2: #d22323;
+}
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor1) ;
+    font-family: var(--font1);
+}
+header{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+
+}
+header > h1{
+    font-family: var(--cor1);
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+.imagem{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    text-shadow: #1b1b1b 2px 2px 0px;
+}
+
+#imagem1{
+    background-image: url(./img/batman\ na\ bondade.jpeg);
+   
+}
+#imagem2{
+    background-image: url(./img/mc\ lovin\ 4k.jpg);
+    background-position: right;
+   
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2em;
+    line-height: 2em;
+    font-size: 2vw;
+    font-family: var(--font3);
+}
+section .normal{
+    color: var(--cor2);
+    background-color: var(--cor2);
+}
+footer{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: white;
+}
